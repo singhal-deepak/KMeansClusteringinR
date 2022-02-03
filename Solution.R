@@ -1,6 +1,4 @@
-# IDS 572 - Homework 4
-# Charu Yadav (653762591)
-# Deepak Singhal (672190946)
+
 
 #install.packages("readxl","dplyr" , "ggplot2", "caret")
 library(readxl)
@@ -8,8 +6,7 @@ library(caret)
 library(ggplot2)
 library(dplyr)
 
-data = read_excel("/Users/deepaksinghal/Downloads/Fall,21 Assignments/DM/HW4/prospect.xls",sheet = "Sheet1")
-#data = read_excel("C:/Users/n/Documents/UIC/Fall Sem/572/prospect.xls",sheet = "Sheet1")
+data = read_excel("~/prospect.xls",sheet = "Sheet1")
 
 # converting SEX variable into numerical data type.
 
